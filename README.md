@@ -12,6 +12,7 @@
 
 
 
+
 ## 2. iconfont/css预处理器的使用
 
 ### 2.1 iconfont
@@ -172,6 +173,5 @@ store.commit('increment', {
 
 ## 6.发现几个好用的库:vuescroll/betterscroll
 
-
-
-
+## 记得去看mutations的同步和异步操作
+## 记录一下stylus的坑：子级元素的css必须在父级元素之下(雾...)

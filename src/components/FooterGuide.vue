@@ -28,9 +28,9 @@ export default {
   },
   methods: {
     onChange(index) {
-      this.$store.commit("change", this.title[index]);
-      console.log(this.title[index]);
-      console.log(this.$store.state.msg);
+      // this.$store.commit("change", this.title[index]);
+      // console.log(this.title[index]);
+      // console.log(this.$store.state.msg);
       
     }
   }

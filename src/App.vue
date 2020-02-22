@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-      <TopGuide></TopGuide>
       <router-view></router-view>
       <FooterGuide></FooterGuide>
   </div>
@@ -13,7 +12,6 @@ export default {
   name: "App",
   components: {
     FooterGuide,
-    TopGuide
   }
 };
 </script>
