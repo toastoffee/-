@@ -175,5 +175,3 @@ store.commit('increment', {
 
 ## 记得去看mutations的同步和异步操作
 ## 记录一下stylus的坑：子级元素的css必须在父级元素之下(雾...)
-今天学了挺多的，特别是git，总算是进了git半个大门了
-尝试一下快捷键
