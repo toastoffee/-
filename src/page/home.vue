@@ -1,5 +1,6 @@
 <template>
   <div>
+    <TopGuide></TopGuide>
     <div class="swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -50,6 +51,7 @@
 <script>
 import "swiper/css/swiper.min.css";
 import Swiper from "swiper";
+import TopGuide from "../components/TopGuide";
 
 export default {
   mounted() {
@@ -77,29 +79,25 @@ export default {
       ],
       text: ["早餐", "午餐", "晚餐", "外卖", "小吃", "下午茶", "舒服", "准时达"]
     };
-  }
+  },
+  components: { TopGuide }
 };
 </script>
 
 <style lang="stylus" scoped>
-.swiper-container {
-  height: 200px;
-  width: 100%;
-}
-
-span {
-  margin-left: 16px;
-  color: #778899;
-  font-size: 14px;
-}
-
-#recommend {
-  position: fixed;
-  width: 100%;
-  top: 300px;
-  bottom: 0;
-  margin-bottom: 50px;
-  overflow: scroll;
-}
+.swiper-container
+  height: 200px
+  width: 100%
+span
+  margin-left: 16px
+  color: #778899
+  font-size: 14px
+#recommend
+  position: fixed
+  width: 100%
+  top: 300px
+  bottom: 0
+  margin-bottom: 50px
+  overflow: scroll
 
 </style>
