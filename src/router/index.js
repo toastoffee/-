@@ -4,6 +4,7 @@ import Home from '../page/home.vue'
 import Order from '../page/order.vue'
 import Search from '../page/search.vue'
 import Profile from '../page/profile.vue'
+import StoreInfo from "../page/StoreInfo.vue"
 
 Vue.use(Router)
 
@@ -33,6 +34,11 @@ export default new Router({
       path: '/profile',
       name: 'profile',
       component: Profile
+    },
+    {
+      path:'/home/:index',
+      name:'storeinfo',
+      component:StoreInfo
     }
   ]
 })
